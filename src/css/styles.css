@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px #6B6B68;
+}
+
+.tripLeft {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+* {
+    background: #212126;
+    color: #E7E3D8;
+}
+
+.likes {
+    display: flex;
+    justify-content: center;
+    border-top: solid 2px #6B6B68;
+}
+
+.favColor {
+    color: teal;
+}
