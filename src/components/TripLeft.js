@@ -129,7 +129,7 @@ class TripLeft extends React.Component {
         var daysLeft = daysLeftInMonth(arrival) + daysLeftInMonth(date1);
 
         return(
-            <div className="tripLeft">
+            <div className={`tripLeft ${this.props.showTripLeft}`}>
                 <h1>It is {dateFormatter(date1)}</h1>
                 <h1>I'll be there on {dateFormatter(arrival)}</h1>
                 <h1>That means there are {daysLeft} days of anticipation left ;)</h1>
